@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.tasklist__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 568px;
+}
+
+.tasklist__header {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tasklist__header-text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 200px 0px 200px;
+}
+
+.tasklist__taskcontrol {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tasklist__taskcontrol-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tasklist__taskcontrol-form-textinput {
+    margin-left: 25px;
+    width: 225px;
+    line-height: 19px;
+    height: 20px;
+    font-weight: normal;
+    border-width: 2px;
+}
+
+.tasklist__taskcontrol-form-button {
+    margin-left: 20px;
+    border:none;
+    font-weight: 900;
+    padding: 5px 32px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.tasklist__taskcontrol-buttons-remove{
+    width: 110px;
+    border-color: black;
+    margin-left: 25px;
+    font-weight: 900;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.tasklist__taskcontrol-buttons-ready {
+    width: 110px;
+    border-color: black;
+    margin-left: 10px;
+    font-weight: 900;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.tasklist__item {
+    border: 1px solid #ccc;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tasklist__item-ready {
+    width: 110px;
+    border-color: black;
+    margin-left: 25px;
+    font-weight: 900;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.tasklist__item-unready {
+    width: 110px;
+    border-color: black;
+    margin-left: 25px;
+    font-weight: 900;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.tasklist__item-delete {
+    width: 110px;
+    border-color: black;
+    margin-left: 10px;
+    font-weight: 900;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    border-width: 3px;
+    margin-bottom: 10px;
+}
+
+.tasklist__item-text {
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+}
+
+.tasklist__item-text-text {
+    max-width: 325px;
+    margin-left: 25px;
+    font-weight: 600;
+
+}
+
+.tasklist__item-status-ready {
+    margin: 20px 30px 20px 0px;
+}
+
+.tasklist__item-status-unready {
+    margin: 20px 30px 20px 0px;
+}
